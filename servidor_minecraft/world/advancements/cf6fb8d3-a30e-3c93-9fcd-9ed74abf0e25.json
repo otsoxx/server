@@ -65,20 +65,25 @@
     "criteria": {
       "muskeg": "2025-02-15 21:55:33 +0000",
       "woodland": "2025-02-10 17:33:31 +0000",
+      "rocky_shrubland": "2025-02-15 22:45:46 +0000",
       "scrubland": "2025-02-10 16:52:09 +0000",
       "erupting_inferno": "2025-02-10 23:25:49 +0000",
       "lush_savanna": "2025-02-10 17:34:10 +0000",
       "highland": "2025-01-30 01:21:45 +0000",
+      "jacaranda_glade": "2025-02-15 22:40:12 +0000",
       "cold_desert": "2025-02-10 16:14:00 +0000",
       "crystalline_chasm": "2025-02-10 23:27:12 +0000",
+      "orchard": "2025-02-15 22:39:30 +0000",
       "coniferous_forest": "2025-01-30 01:21:50 +0000",
       "spider_nest": "2025-02-10 18:28:25 +0000",
       "dryland": "2025-02-10 17:32:10 +0000",
       "lush_desert": "2025-02-10 17:33:19 +0000",
+      "redwood_forest": "2025-02-15 22:44:34 +0000",
       "visceral_heap": "2025-02-10 17:19:22 +0000",
       "dune_beach": "2025-01-30 01:20:43 +0000",
       "seasonal_forest": "2025-02-15 22:34:37 +0000",
       "pasture": "2025-01-30 01:21:16 +0000",
+      "lavender_field": "2025-02-15 22:39:37 +0000",
       "fir_clearing": "2025-02-10 16:10:29 +0000",
       "prairie": "2025-01-30 01:21:34 +0000",
       "snowy_coniferous_forest": "2025-02-11 00:02:21 +0000",
@@ -1432,7 +1437,9 @@
       "minecraft:zombified_piglin": "2025-02-11 01:05:45 +0000",
       "minecraft:wither_skeleton": "2025-02-11 01:03:48 +0000",
       "minecraft:ender_dragon": "2025-02-11 01:22:42 +0000",
+      "minecraft:cave_spider": "2025-02-15 22:41:16 +0000",
       "minecraft:enderman": "2025-02-10 17:24:13 +0000",
+      "minecraft:stray": "2025-02-15 22:40:45 +0000",
       "minecraft:endermite": "2025-02-11 01:36:42 +0000",
       "minecraft:zombie": "2025-01-31 03:10:39 +0000",
       "minecraft:zombie_villager": "2025-02-10 18:27:09 +0000"
@@ -4475,6 +4482,18 @@
   "alexscaves:alexscaves/summon_luxtructosaurus": {
     "criteria": {
       "summon_luxtructosaurus": "2025-02-15 22:10:22 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dismantledto_bones": {
+    "criteria": {
+      "dismantledto_bones_0": "2025-02-15 22:42:59 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-02-15 22:47:05 +0000"
     },
     "done": true
   },

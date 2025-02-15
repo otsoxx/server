@@ -490,3 +490,38 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [15Feb2025 22:37:13.731] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
 [15Feb2025 22:37:24.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
 [15Feb2025 22:37:45.225] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
+[15Feb2025 22:37:51.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:38:05.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5736ms or 114 ticks behind
+[15Feb2025 22:38:24.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:38:34.334] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13419ms or 268 ticks behind
+[15Feb2025 22:39:07.031] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[15Feb2025 22:39:25.554] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2139ms or 42 ticks behind
+[15Feb2025 22:39:44.382] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[15Feb2025 22:40:01.740] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2375ms or 47 ticks behind
+[15Feb2025 22:40:16.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:40:29.487] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[15Feb2025 22:40:47.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:40:49.436] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[15Feb2025 22:41:49.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 48 entities]
+[15Feb2025 22:42:59.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has reached the goal [Senior Summoner]
+[15Feb2025 22:43:07.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 15 entities]
+[15Feb2025 22:43:29.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
+[15Feb2025 22:43:38.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 22:43:48.788] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[15Feb2025 22:44:06.898] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3133ms or 62 ticks behind
+[15Feb2025 22:44:24.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
+[15Feb2025 22:44:43.291] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3626ms or 72 ticks behind
+[15Feb2025 22:45:00.827] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2562ms or 51 ticks behind
+[15Feb2025 22:45:18.271] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2456ms or 49 ticks behind
+[15Feb2025 22:45:20.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Gave 10000000 experience points to FazeDinosaurio]
+[15Feb2025 22:45:38.221] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[15Feb2025 22:45:39.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Gave 10000000 experience points to OTSOXX]
+[15Feb2025 22:46:44.584] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[15Feb2025 22:46:54.245] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/31842, l='ServerLevel[no]', x=-3936.23, y=64.00, z=173.70] died, message: 'Villager hit the ground too hard whilst trying to escape FazeDinosaurio'
+[15Feb2025 22:47:03.876] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[15Feb2025 22:47:05.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Mine? Mine? Mine?]
+[15Feb2025 22:47:22.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! -3.5419569222444807,0.9271039364302851,-9.601762253604164
+[15Feb2025 22:47:26.445] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[15Feb2025 22:47:39.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:48:08.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:48:47.035] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
