@@ -352,3 +352,99 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [15Feb2025 21:56:06.784] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9219ms or 184 ticks behind
 [15Feb2025 21:56:28.900] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7135ms or 142 ticks behind
 [15Feb2025 21:56:49.956] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6091ms or 121 ticks behind
+[15Feb2025 21:57:27.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 10.041237658008413,1.4719179919633376,0.1409044235478234
+[15Feb2025 21:58:46.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported OTSOXX to FazeDinosaurio]
+[15Feb2025 21:58:56.518] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[15Feb2025 21:58:56.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported FazeDinosaurio to OTSOXX]
+[15Feb2025 21:59:11.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
+[15Feb2025 21:59:27.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has reached the goal [The Cave That Time Forgot]
+[15Feb2025 21:59:31.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 21:59:33.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported FazeDinosaurio to OTSOXX]
+[15Feb2025 21:59:34.355] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2140ms or 42 ticks behind
+[15Feb2025 21:59:34.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has reached the goal [The Cave That Time Forgot]
+[15Feb2025 22:00:08.057] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
+[15Feb2025 22:00:10.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Life Finds A Way]
+[15Feb2025 22:00:14.408] [pool-5-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos BlockPos{x=-3589, y=70, z=-1157}
+[15Feb2025 22:00:18.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 9.693079395465702,2.4955041354277476,-0.615051260163682
+[15Feb2025 22:00:21.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has made the advancement [Life Finds A Way]
+[15Feb2025 22:00:23.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Re-Extinct]
+[15Feb2025 22:00:27.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Tastes Like Chicken]
+[15Feb2025 22:00:30.039] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7024ms or 140 ticks behind
+[15Feb2025 22:00:47.540] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2525ms or 50 ticks behind
+[15Feb2025 22:01:30.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[15Feb2025 22:01:49.438] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4173ms or 83 ticks behind
+[15Feb2025 22:02:07.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Fronds Like These]
+[15Feb2025 22:02:07.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has made the advancement [Town of Bedrock]
+[15Feb2025 22:02:31.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Tree Stars!!!]
+[15Feb2025 22:02:57.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio was kicked for floating too long!
+[15Feb2025 22:02:57.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Flying is not enabled on this server
+[15Feb2025 22:02:57.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
+[15Feb2025 22:03:08.227] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:50695] logged in with entity id 14077 at (-3733.9431269438683, -20.956720354869383, -1148.6967726025246)
+[15Feb2025 22:03:08.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
+[15Feb2025 22:04:09.228] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[15Feb2025 22:04:46.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX was killed
+[15Feb2025 22:04:46.167] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/12345, l='ServerLevel[no]', x=-3790.46, y=70.00, z=-1212.93] died, message: 'Toolsmith was killed'
+[15Feb2025 22:04:46.168] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12346, l='ServerLevel[no]', x=-3809.42, y=68.00, z=-1231.52] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.172] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12505, l='ServerLevel[no]', x=-3812.00, y=67.00, z=-1239.74] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.173] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12506, l='ServerLevel[no]', x=-3810.50, y=69.00, z=-1230.49] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.190] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/12665, l='ServerLevel[no]', x=-3795.91, y=67.94, z=-1271.10] died, message: 'Fisherman was killed'
+[15Feb2025 22:04:46.198] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12669, l='ServerLevel[no]', x=-3861.13, y=93.00, z=-1267.48] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.200] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12670, l='ServerLevel[no]', x=-3831.43, y=78.00, z=-1252.03] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.230] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12871, l='ServerLevel[no]', x=-3825.59, y=75.00, z=-1270.36] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.230] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12872, l='ServerLevel[no]', x=-3815.05, y=73.00, z=-1249.44] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.231] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/12874, l='ServerLevel[no]', x=-3812.00, y=75.00, z=-1282.43] died, message: 'Fisherman was killed'
+[15Feb2025 22:04:46.233] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12877, l='ServerLevel[no]', x=-3796.70, y=67.94, z=-1271.73] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.237] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12895, l='ServerLevel[no]', x=-3833.44, y=77.00, z=-1297.97] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.245] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/13038, l='ServerLevel[no]', x=-3798.06, y=69.00, z=-1274.83] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.247] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/13044, l='ServerLevel[no]', x=-3826.74, y=75.00, z=-1271.13] died, message: 'Nitwit was killed'
+[15Feb2025 22:04:46.250] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/13163, l='ServerLevel[no]', x=-3833.56, y=76.94, z=-1298.73] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio was killed
+[15Feb2025 22:04:46.325] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/14483, l='ServerLevel[no]', x=-3798.28, y=68.00, z=-1329.37] died, message: 'Villager was killed'
+[15Feb2025 22:04:46.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 636 entities]
+[15Feb2025 22:05:01.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to -3687.500000, -32.500000, -1145.500000]
+[15Feb2025 22:05:03.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
+[15Feb2025 22:05:15.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 22:06:25.315] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[15Feb2025 22:06:39.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 468 entities]
+[15Feb2025 22:06:42.666] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2350ms or 47 ticks behind
+[15Feb2025 22:07:02.855] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[15Feb2025 22:08:22.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 73 entities]
+[15Feb2025 22:09:08.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has reached the goal [Suspicious Looking Item]
+[15Feb2025 22:09:50.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported OTSOXX to FazeDinosaurio]
+[15Feb2025 22:10:22.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [The Beginning of the End]
+[15Feb2025 22:10:22.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has made the advancement [The Beginning of the End]
+[15Feb2025 22:11:53.294] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-4, z=-1265} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.333] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-4, z=-1265} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.386] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-4, z=-1267} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.433] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-4, z=-1265} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.462] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.539] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.561] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.611] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.664] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3758, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.733] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3758, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.786] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3759, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.835] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3758, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:11:53.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3759, y=-5, z=-1267} BlockPos{x=-3758, y=-4, z=-1268}
+[15Feb2025 22:12:34.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
+[15Feb2025 22:12:42.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 22:13:00.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has completed the challenge [The End... of the Beginning]
+[15Feb2025 22:13:11.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Spectator Mode]
+[15Feb2025 22:13:18.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 146 entities]
+[15Feb2025 22:13:36.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:13:43.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Spectator Mode]
+[15Feb2025 22:13:50.187] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 7.3022336495068885,0.0,-7.135983677624836
+[15Feb2025 22:14:05.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:14:22.725] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[15Feb2025 22:14:39.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
+[15Feb2025 22:14:45.980] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8265ms or 165 ticks behind
+[15Feb2025 22:14:58.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 1.1104482052678577,3.353011709646797,-9.50725735658716
+[15Feb2025 22:15:35.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 22:15:59.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported OTSOXX to FazeDinosaurio]
+[15Feb2025 22:16:10.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
+[15Feb2025 22:16:30.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Spectator Mode]
+[15Feb2025 22:16:36.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to -3746.500000, -26.763075, -1262.500000]
+[15Feb2025 22:16:49.254] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 3.2800723338282296,0.0,-9.4892287997925
+[15Feb2025 22:17:01.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 22:17:06.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported FazeDinosaurio to OTSOXX]
+[15Feb2025 22:17:10.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
