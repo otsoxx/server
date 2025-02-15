@@ -4,5 +4,11 @@
     "name": "OTSOXX",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "853aa652-cd9c-3289-8181-2c02502de88a",
+    "name": "FazeDinosaurio",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

@@ -281,3 +281,59 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [15Feb2025 21:32:09.545] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: OTSOXX[/100.112.163.127:60884] logged in with entity id 1631 at (-3910.0774360707665, 68.0, 171.0293253093531)
 [15Feb2025 21:32:09.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX joined the game
 [15Feb2025 21:32:13.607] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4042ms or 80 ticks behind
+[15Feb2025 21:34:24.127] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:49790] logged in with entity id 2344 at (-3924.7498325687457, 64.0, 210.4089102010128)
+[15Feb2025 21:34:24.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
+[15Feb2025 21:34:26.083] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[15Feb2025 21:34:43.186] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2121ms or 42 ticks behind
+[15Feb2025 21:34:54.224] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Timed out
+[15Feb2025 21:34:54.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
+[15Feb2025 21:34:54.751] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[15Feb2025 21:35:20.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made FazeDinosaurio a server operator
+[15Feb2025 21:35:29.295] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:49829] logged in with entity id 2619 at (-3924.7498325687457, 64.0, 210.4089102010128)
+[15Feb2025 21:35:29.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
+[15Feb2025 21:35:46.057] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio was kicked for floating too long!
+[15Feb2025 21:35:46.059] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Flying is not enabled on this server
+[15Feb2025 21:35:46.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
+[15Feb2025 21:35:46.116] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[15Feb2025 21:37:20.933] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OTSOXX moved wrongly!
+[15Feb2025 21:37:35.025] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1662, l='ServerLevel[no]', x=-3934.70, y=64.00, z=181.70] died, message: 'Villager was squished too much'
+[15Feb2025 21:37:44.747] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:49967] logged in with entity id 3636 at (-3929.380527381101, 66.51679409440437, 205.86313849812746)
+[15Feb2025 21:37:44.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
+[15Feb2025 21:38:15.202] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Timed out
+[15Feb2025 21:38:15.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
+[15Feb2025 21:39:12.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
+[15Feb2025 21:39:24.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 21:39:27.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
+[15Feb2025 21:39:36.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 21:39:46.327] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1652, l='ServerLevel[no]', x=-3934.70, y=64.11, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.330] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1653, l='ServerLevel[no]', x=-3934.70, y=64.08, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.332] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1654, l='ServerLevel[no]', x=-3934.70, y=64.27, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.336] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1655, l='ServerLevel[no]', x=-3934.70, y=64.27, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.339] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1656, l='ServerLevel[no]', x=-3934.70, y=64.12, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.344] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1658, l='ServerLevel[no]', x=-3934.70, y=64.06, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.350] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1664, l='ServerLevel[no]', x=-3934.70, y=64.11, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.358] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1666, l='ServerLevel[no]', x=-3934.70, y=64.19, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.824] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1650, l='ServerLevel[no]', x=-3934.30, y=64.28, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.826] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1657, l='ServerLevel[no]', x=-3934.70, y=64.02, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.828] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1659, l='ServerLevel[no]', x=-3934.70, y=64.60, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:46.831] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1665, l='ServerLevel[no]', x=-3934.70, y=64.13, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.325] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1647, l='ServerLevel[no]', x=-3934.30, y=64.62, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.333] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1649, l='ServerLevel[no]', x=-3934.30, y=64.55, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.341] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1660, l='ServerLevel[no]', x=-3934.70, y=64.54, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.830] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1648, l='ServerLevel[no]', x=-3934.30, y=64.86, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.833] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1661, l='ServerLevel[no]', x=-3934.30, y=64.72, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.835] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1663, l='ServerLevel[no]', x=-3934.70, y=64.81, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.836] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1667, l='ServerLevel[no]', x=-3934.70, y=64.90, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.837] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1669, l='ServerLevel[no]', x=-3934.70, y=64.33, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.838] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1670, l='ServerLevel[no]', x=-3934.70, y=65.10, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.839] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1671, l='ServerLevel[no]', x=-3934.70, y=64.49, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:47.840] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1672, l='ServerLevel[no]', x=-3934.70, y=64.83, z=181.30] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:39:49.324] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3243, l='ServerLevel[no]', x=-3934.85, y=64.52, z=181.85] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:40:22.718] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1668, l='ServerLevel[no]', x=-3934.30, y=65.17, z=181.45] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:40:27.369] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1651, l='ServerLevel[no]', x=-3933.50, y=68.84, z=181.70] died, message: 'Villager tried to swim in lava'
+[15Feb2025 21:40:54.292] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:50041] logged in with entity id 4571 at (-3929.380527381101, 66.51679409440437, 205.86313849812746)
+[15Feb2025 21:40:54.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
+[15Feb2025 21:43:24.578] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Timed out
+[15Feb2025 21:43:24.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
+[15Feb2025 21:43:48.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
+[15Feb2025 21:43:51.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
