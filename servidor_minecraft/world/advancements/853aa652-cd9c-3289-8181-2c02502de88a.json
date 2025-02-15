@@ -5035,21 +5035,27 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/summon_luxtructosaurus": {
-    "criteria": {
-      "summon_luxtructosaurus": "2025-02-15 22:10:22 +0000"
-    },
-    "done": true
-  },
   "alexscaves:alexscaves/ominous_catalyst": {
     "criteria": {
       "nuclear_bomb": "2025-02-15 22:09:08 +0000"
     },
     "done": true
   },
+  "alexscaves:alexscaves/summon_luxtructosaurus": {
+    "criteria": {
+      "summon_luxtructosaurus": "2025-02-15 22:10:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mud_bricks": {
     "criteria": {
       "has_packed_mud": "2025-02-15 22:10:51 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/extinction_spear": {
+    "criteria": {
+      "dreadbow": "2025-02-15 22:34:19 +0000"
     },
     "done": true
   },

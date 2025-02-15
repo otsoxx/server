@@ -77,6 +77,7 @@
       "lush_desert": "2025-02-10 17:33:19 +0000",
       "visceral_heap": "2025-02-10 17:19:22 +0000",
       "dune_beach": "2025-01-30 01:20:43 +0000",
+      "seasonal_forest": "2025-02-15 22:34:37 +0000",
       "pasture": "2025-01-30 01:21:16 +0000",
       "fir_clearing": "2025-02-10 16:10:29 +0000",
       "prairie": "2025-01-30 01:21:34 +0000",
@@ -4537,6 +4538,18 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/cave_codex": {
+    "criteria": {
+      "cave_codex": "2025-02-15 22:32:59 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/limestone": {
+    "criteria": {
+      "limestone": "2025-02-15 22:22:19 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/upgrade_base": {
     "criteria": {
       "has_leather": "2025-02-15 21:48:21 +0000"
@@ -4564,6 +4577,12 @@
   "biomesoplenty:recipes/building_blocks/mossy_black_sand": {
     "criteria": {
       "has_moss_block": "2025-02-15 22:00:13 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2025-02-15 22:36:24 +0000"
     },
     "done": true
   },

@@ -448,3 +448,45 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [15Feb2025 22:17:01.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
 [15Feb2025 22:17:06.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported FazeDinosaurio to OTSOXX]
 [15Feb2025 22:17:10.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:17:34.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
+[15Feb2025 22:17:41.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 22:17:42.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio blew up
+[15Feb2025 22:17:52.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to -3812.500000, -2.500000, -1123.500000]
+[15Feb2025 22:17:54.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:17:59.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 1.7314543406632765,4.306831441351342,9.126505587718157
+[15Feb2025 22:19:24.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:20:23.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:22:19.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Town of Bedrock]
+[15Feb2025 22:23:29.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:24:01.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Adventure Mode]
+[15Feb2025 22:24:08.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:24:13.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:27:02.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
+[15Feb2025 22:27:09.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 22:27:16.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:27:51.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported OTSOXX to -3949.500000, 64.500000, 184.500000]
+[15Feb2025 22:29:47.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 22 entities]
+[15Feb2025 22:29:48.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:32:13.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:32:43.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:32:59.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Lorem Ipsum]
+[15Feb2025 22:33:45.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
+[15Feb2025 22:34:10.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
+[15Feb2025 22:34:13.260] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Found alexscaves:magnetic_caves at -2452 -56 3154 in 2s
+[15Feb2025 22:34:13.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OTSOXX moved too quickly! -2.805241230804768,0.41999998688697815,-9.940135953988943
+[15Feb2025 22:34:19.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has reached the goal [Spear of Ages]
+[15Feb2025 22:34:42.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:35:13.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:35:23.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:35:23.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 10.082526106972182,0.2675514806611403,1.4919011318637274
+[15Feb2025 22:36:24.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has reached the goal [Dark Creator]
+[15Feb2025 22:36:31.309] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/26784, l='ServerLevel[no]', x=-3958.50, y=64.00, z=241.30] died, message: 'Librarian was slain by Zombie'
+[15Feb2025 22:36:35.937] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio was kicked for floating too long!
+[15Feb2025 22:36:35.988] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Flying is not enabled on this server
+[15Feb2025 22:36:35.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
+[15Feb2025 22:36:47.905] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:50938] logged in with entity id 31769 at (-3934.788513084694, 66.51679409440437, 200.17536633321404)
+[15Feb2025 22:36:47.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
+[15Feb2025 22:37:11.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[15Feb2025 22:37:13.731] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[15Feb2025 22:37:24.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[15Feb2025 22:37:45.225] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
