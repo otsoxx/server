@@ -1,8 +1,8 @@
-[15Feb2025 21:22:12.315] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[15Feb2025 21:22:12.323] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[15Feb2025 21:22:16.754] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[15Feb2025 21:22:16.882] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Updating Essential Loader (stage2) version 1.6.3 (285f951adc7537f49ae3ef9fc0d2fd3e) from union:/workspaces/server/servidor_minecraft/mods/Essential-1.20.1.jar%23135!/essential-loader-stage2-modlauncher9-1.6.3.jar
-[15Feb2025 21:22:16.905] [main/FATAL] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Encountered serious error loading transformation service, expect problems
+[16Feb2025 00:49:40.601] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[16Feb2025 00:49:40.612] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[16Feb2025 00:49:42.423] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16Feb2025 00:49:42.483] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Updating Essential Loader (stage2) version 1.6.3 (285f951adc7537f49ae3ef9fc0d2fd3e) from union:/workspaces/server/servidor_minecraft/mods/Essential-1.20.1.jar%23135!/essential-loader-stage2-modlauncher9-1.6.3.jar
+[16Feb2025 00:49:42.501] [main/FATAL] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Encountered serious error loading transformation service, expect problems
 java.util.ServiceConfigurationError: cpw.mods.modlauncher.api.ITransformationService: Provider gg.essential.container.loader.stage0.EssentialTransformationService could not be instantiated
 	at java.util.ServiceLoader.fail(ServiceLoader.java:586) ~[?:?]
 	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:813) ~[?:?]
@@ -107,69 +107,69 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.digest.Dig
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
 	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:789) ~[?:?]
 	... 16 more
-[15Feb2025 21:22:17.279] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[15Feb2025 21:22:18.102] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[15Feb2025 21:22:18.105] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[15Feb2025 21:22:18.106] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[15Feb2025 21:22:18.108] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[15Feb2025 21:22:18.977] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[15Feb2025 21:22:18.995] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[15Feb2025 21:22:25.644] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[15Feb2025 21:22:26.033] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[15Feb2025 21:22:27.078] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 41 options available, 0 override(s) found
-[15Feb2025 21:22:32.265] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
-[15Feb2025 21:22:33.429] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[15Feb2025 21:22:56.601] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[16Feb2025 00:49:42.760] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[16Feb2025 00:49:44.089] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[16Feb2025 00:49:44.092] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Feb2025 00:49:44.094] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Feb2025 00:49:44.098] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Feb2025 00:49:45.208] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[16Feb2025 00:49:45.213] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[16Feb2025 00:49:53.462] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Feb2025 00:49:53.769] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[16Feb2025 00:49:54.020] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 41 options available, 0 override(s) found
+[16Feb2025 00:49:58.932] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[16Feb2025 00:50:00.395] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[16Feb2025 00:50:21.106] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[15Feb2025 21:23:00.706] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.87.
-[15Feb2025 21:23:01.936] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[15Feb2025 21:23:01.954] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[15Feb2025 21:23:01.964] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[15Feb2025 21:23:01.971] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[15Feb2025 21:23:01.994] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[15Feb2025 21:23:01.998] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[15Feb2025 21:23:01.999] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[15Feb2025 21:23:02.010] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[15Feb2025 21:23:02.991] [modloading-worker-0/INFO] [thedragonlib/]: Welcoming Minecraft
-[15Feb2025 21:23:03.178] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[15Feb2025 21:23:03.202] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[15Feb2025 21:23:03.208] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[15Feb2025 21:23:12.235] [main/INFO] [Moonlight/]: Initialized block sets in 44ms
-[15Feb2025 21:23:15.210] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[15Feb2025 21:23:15.255] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[15Feb2025 21:23:16.788] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[15Feb2025 21:23:16.873] [main/INFO] [Moonlight/]: Initialized color sets in 154ms
-[15Feb2025 21:23:17.137] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[15Feb2025 21:23:17.141] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[15Feb2025 21:23:17.147] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[15Feb2025 21:23:17.149] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[15Feb2025 21:23:17.151] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[15Feb2025 21:23:17.151] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[15Feb2025 21:23:17.153] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[15Feb2025 21:23:17.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.46 Target: null
-[15Feb2025 21:23:17.203] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[15Feb2025 21:23:17.276] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 2, 0, 0, 0, 2, 48, 34, 2] ms
-[15Feb2025 21:23:17.287] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[15Feb2025 21:23:17.292] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[15Feb2025 21:23:17.299] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[15Feb2025 21:23:17.300] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[15Feb2025 21:23:17.947] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
-[15Feb2025 21:23:17.953] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thedragonlib] Starting version check at https://raw.githubusercontent.com/sokratis12GR/TheDragonLib/1.19/thedragonlib-updater.json
-[15Feb2025 21:23:18.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thedragonlib] Found status: BETA Current: 1.20.1-1.0.0 Target: null
-[15Feb2025 21:23:18.009] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[15Feb2025 21:23:18.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.29
-[15Feb2025 21:23:18.322] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
-[15Feb2025 21:23:18.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.11 Target: null
-[15Feb2025 21:23:18.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [armorplus] Starting version check at https://sokratis.space/armorplus/1.20/update.json
-[15Feb2025 21:23:18.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [armorplus] Found status: OUTDATED Current: 1.20.1-20.0.2 Target: 1.20.2-20.0.2
-[15Feb2025 21:23:25.687] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15Feb2025 21:23:30.884] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23171!/assets/.mcassetsroot' uses unexpected schema
-[15Feb2025 21:23:30.885] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23171!/data/.mcassetsroot' uses unexpected schema
-[15Feb2025 21:23:31.417] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 271 ms
-[15Feb2025 21:23:35.967] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[15Feb2025 21:23:36.505] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
-[15Feb2025 21:23:40.071] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[15Feb2025 21:23:40.110] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe armorplus:crafting/shapeless/patchouli/ap_book
+[16Feb2025 00:50:24.650] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.87.
+[16Feb2025 00:50:26.689] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[16Feb2025 00:50:26.694] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[16Feb2025 00:50:26.711] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[16Feb2025 00:50:26.727] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[16Feb2025 00:50:26.730] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[16Feb2025 00:50:26.731] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[16Feb2025 00:50:26.734] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[16Feb2025 00:50:26.735] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[16Feb2025 00:50:27.907] [modloading-worker-0/INFO] [thedragonlib/]: Welcoming Minecraft
+[16Feb2025 00:50:27.980] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[16Feb2025 00:50:27.986] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[16Feb2025 00:50:27.987] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[16Feb2025 00:50:36.102] [main/INFO] [Moonlight/]: Initialized block sets in 40ms
+[16Feb2025 00:50:38.892] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[16Feb2025 00:50:38.935] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[16Feb2025 00:50:40.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[16Feb2025 00:50:40.332] [main/INFO] [Moonlight/]: Initialized color sets in 140ms
+[16Feb2025 00:50:40.593] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.46 Target: null
+[16Feb2025 00:50:40.594] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[16Feb2025 00:50:40.658] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[16Feb2025 00:50:40.662] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[16Feb2025 00:50:40.662] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[16Feb2025 00:50:40.662] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[16Feb2025 00:50:40.662] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[16Feb2025 00:50:40.663] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[16Feb2025 00:50:40.663] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[16Feb2025 00:50:40.760] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 5, 0, 2, 0, 3, 46, 20, 5] ms
+[16Feb2025 00:50:40.766] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16Feb2025 00:50:40.768] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[16Feb2025 00:50:40.773] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[16Feb2025 00:50:40.773] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16Feb2025 00:50:41.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
+[16Feb2025 00:50:41.352] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thedragonlib] Starting version check at https://raw.githubusercontent.com/sokratis12GR/TheDragonLib/1.19/thedragonlib-updater.json
+[16Feb2025 00:50:41.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thedragonlib] Found status: BETA Current: 1.20.1-1.0.0 Target: null
+[16Feb2025 00:50:41.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Feb2025 00:50:41.764] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.29
+[16Feb2025 00:50:41.764] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[16Feb2025 00:50:41.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.11 Target: null
+[16Feb2025 00:50:41.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [armorplus] Starting version check at https://sokratis.space/armorplus/1.20/update.json
+[16Feb2025 00:50:41.923] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [armorplus] Found status: OUTDATED Current: 1.20.1-20.0.2 Target: 1.20.2-20.0.2
+[16Feb2025 00:50:48.042] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Feb2025 00:50:53.749] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23171!/assets/.mcassetsroot' uses unexpected schema
+[16Feb2025 00:50:53.750] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23171!/data/.mcassetsroot' uses unexpected schema
+[16Feb2025 00:50:54.297] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 201 ms
+[16Feb2025 00:50:58.434] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[16Feb2025 00:50:58.874] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
+[16Feb2025 00:51:01.956] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[16Feb2025 00:51:02.000] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe armorplus:crafting/shapeless/patchouli/ap_book
 com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23176!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23176!/:?]
@@ -202,326 +202,116 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[15Feb2025 21:23:40.142] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[15Feb2025 21:23:40.244] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[15Feb2025 21:23:40.339] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[15Feb2025 21:23:40.628] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
-[15Feb2025 21:23:40.875] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2574 advancements
-[15Feb2025 21:23:40.889] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[15Feb2025 21:23:40.897] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[15Feb2025 21:23:40.904] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[15Feb2025 21:23:40.968] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
-[15Feb2025 21:23:41.090] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[15Feb2025 21:23:43.837] [main/INFO] [Moonlight/]: Applied 7 data villager trades
-[15Feb2025 21:23:44.024] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
-[15Feb2025 21:23:44.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[15Feb2025 21:23:44.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[15Feb2025 21:23:44.459] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[15Feb2025 21:23:44.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[15Feb2025 21:23:44.782] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[15Feb2025 21:23:44.902] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[15Feb2025 21:23:45.337] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15Feb2025 21:23:45.338] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[15Feb2025 21:23:45.339] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15Feb2025 21:23:45.340] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[15Feb2025 21:23:45.856] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[15Feb2025 21:23:45.857] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[15Feb2025 21:23:45.863] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[15Feb2025 21:23:45.865] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[15Feb2025 21:23:45.866] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[15Feb2025 21:23:45.888] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[15Feb2025 21:23:45.889] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[15Feb2025 21:23:45.890] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[15Feb2025 21:23:45.891] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[15Feb2025 21:23:45.892] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[15Feb2025 21:23:47.044] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[15Feb2025 21:23:47.046] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[15Feb2025 21:23:47.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[15Feb2025 21:24:04.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[15Feb2025 21:24:13.852] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.852] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.854] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.855] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.856] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.856] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.857] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.857] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.861] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.863] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.871] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.889] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.890] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.890] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.891] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.892] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.893] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:13.894] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:14.061] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:14.561] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:15.061] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Feb2025 21:24:15.933] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11372 ms
-[15Feb2025 21:24:15.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (30.566s)! For help, type "help"
-[15Feb2025 21:24:16.067] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[15Feb2025 21:24:29.088] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[15Feb2025 21:27:12.545] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: OTSOXX[/100.112.163.127:60246] logged in with entity id 74 at (-3916.8879845698893, 68.16610926093821, 211.17477228260947)
-[15Feb2025 21:27:12.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX joined the game
-[15Feb2025 21:27:30.284] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17869ms or 357 ticks behind
-[15Feb2025 21:27:57.028] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11763ms or 235 ticks behind
-[15Feb2025 21:28:01.591] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OTSOXX lost connection: Disconnected
-[15Feb2025 21:28:01.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX left the game
-[15Feb2025 21:28:48.596] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: OTSOXX[/100.112.163.127:60549] logged in with entity id 488 at (-3973.699999988079, 68.90625, 187.69999998807907)
-[15Feb2025 21:28:48.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX joined the game
-[15Feb2025 21:28:50.673] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[15Feb2025 21:29:23.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made OTSOXX a server operator
-[15Feb2025 21:29:34.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: The difficulty has been set to Normal]
-[15Feb2025 21:30:14.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set the weather to clear]
-[15Feb2025 21:32:03.277] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OTSOXX lost connection: Disconnected
-[15Feb2025 21:32:03.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX left the game
-[15Feb2025 21:32:09.545] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: OTSOXX[/100.112.163.127:60884] logged in with entity id 1631 at (-3910.0774360707665, 68.0, 171.0293253093531)
-[15Feb2025 21:32:09.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX joined the game
-[15Feb2025 21:32:13.607] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4042ms or 80 ticks behind
-[15Feb2025 21:34:24.127] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:49790] logged in with entity id 2344 at (-3924.7498325687457, 64.0, 210.4089102010128)
-[15Feb2025 21:34:24.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
-[15Feb2025 21:34:26.083] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[15Feb2025 21:34:43.186] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2121ms or 42 ticks behind
-[15Feb2025 21:34:54.224] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Timed out
-[15Feb2025 21:34:54.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
-[15Feb2025 21:34:54.751] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[15Feb2025 21:35:20.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made FazeDinosaurio a server operator
-[15Feb2025 21:35:29.295] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:49829] logged in with entity id 2619 at (-3924.7498325687457, 64.0, 210.4089102010128)
-[15Feb2025 21:35:29.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
-[15Feb2025 21:35:46.057] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio was kicked for floating too long!
-[15Feb2025 21:35:46.059] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Flying is not enabled on this server
-[15Feb2025 21:35:46.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
-[15Feb2025 21:35:46.116] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[15Feb2025 21:37:20.933] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OTSOXX moved wrongly!
-[15Feb2025 21:37:35.025] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1662, l='ServerLevel[no]', x=-3934.70, y=64.00, z=181.70] died, message: 'Villager was squished too much'
-[15Feb2025 21:37:44.747] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:49967] logged in with entity id 3636 at (-3929.380527381101, 66.51679409440437, 205.86313849812746)
-[15Feb2025 21:37:44.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
-[15Feb2025 21:38:15.202] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Timed out
-[15Feb2025 21:38:15.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
-[15Feb2025 21:39:12.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
-[15Feb2025 21:39:24.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 21:39:27.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
-[15Feb2025 21:39:36.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 21:39:46.327] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1652, l='ServerLevel[no]', x=-3934.70, y=64.11, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.330] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1653, l='ServerLevel[no]', x=-3934.70, y=64.08, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.332] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1654, l='ServerLevel[no]', x=-3934.70, y=64.27, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.336] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1655, l='ServerLevel[no]', x=-3934.70, y=64.27, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.339] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1656, l='ServerLevel[no]', x=-3934.70, y=64.12, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.344] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1658, l='ServerLevel[no]', x=-3934.70, y=64.06, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.350] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1664, l='ServerLevel[no]', x=-3934.70, y=64.11, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.358] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1666, l='ServerLevel[no]', x=-3934.70, y=64.19, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.824] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1650, l='ServerLevel[no]', x=-3934.30, y=64.28, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.826] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1657, l='ServerLevel[no]', x=-3934.70, y=64.02, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.828] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1659, l='ServerLevel[no]', x=-3934.70, y=64.60, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:46.831] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1665, l='ServerLevel[no]', x=-3934.70, y=64.13, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.325] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1647, l='ServerLevel[no]', x=-3934.30, y=64.62, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.333] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1649, l='ServerLevel[no]', x=-3934.30, y=64.55, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.341] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1660, l='ServerLevel[no]', x=-3934.70, y=64.54, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.830] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1648, l='ServerLevel[no]', x=-3934.30, y=64.86, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.833] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1661, l='ServerLevel[no]', x=-3934.30, y=64.72, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.835] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1663, l='ServerLevel[no]', x=-3934.70, y=64.81, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.836] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1667, l='ServerLevel[no]', x=-3934.70, y=64.90, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.837] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1669, l='ServerLevel[no]', x=-3934.70, y=64.33, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.838] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1670, l='ServerLevel[no]', x=-3934.70, y=65.10, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.839] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1671, l='ServerLevel[no]', x=-3934.70, y=64.49, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:47.840] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1672, l='ServerLevel[no]', x=-3934.70, y=64.83, z=181.30] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:39:49.324] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3243, l='ServerLevel[no]', x=-3934.85, y=64.52, z=181.85] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:40:22.718] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1668, l='ServerLevel[no]', x=-3934.30, y=65.17, z=181.45] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:40:27.369] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1651, l='ServerLevel[no]', x=-3933.50, y=68.84, z=181.70] died, message: 'Villager tried to swim in lava'
-[15Feb2025 21:40:54.292] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:50041] logged in with entity id 4571 at (-3929.380527381101, 66.51679409440437, 205.86313849812746)
-[15Feb2025 21:40:54.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
-[15Feb2025 21:43:24.578] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Timed out
-[15Feb2025 21:43:24.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
-[15Feb2025 21:43:48.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
-[15Feb2025 21:43:51.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 21:49:24.989] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:50525] logged in with entity id 6337 at (-3926.575408393734, 69.9375, 184.93587798390467)
-[15Feb2025 21:49:25.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
-[15Feb2025 21:50:49.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has made the advancement [Capsid-19]
-[15Feb2025 21:51:40.003] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Found alexscaves:primordial_caves at -3884 -56 -1168 in 1s
-[15Feb2025 21:52:45.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Pic-A-Nic Basket?]
-[15Feb2025 21:53:31.454] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
-[15Feb2025 21:54:01.024] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14609ms or 292 ticks behind
-[15Feb2025 21:54:23.772] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7757ms or 155 ticks behind
-[15Feb2025 21:54:42.675] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3910ms or 78 ticks behind
-[15Feb2025 21:55:01.324] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3659ms or 73 ticks behind
-[15Feb2025 21:55:21.427] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5112ms or 102 ticks behind
-[15Feb2025 21:55:42.579] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6164ms or 123 ticks behind
-[15Feb2025 21:56:06.784] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9219ms or 184 ticks behind
-[15Feb2025 21:56:28.900] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7135ms or 142 ticks behind
-[15Feb2025 21:56:49.956] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6091ms or 121 ticks behind
-[15Feb2025 21:57:27.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 10.041237658008413,1.4719179919633376,0.1409044235478234
-[15Feb2025 21:58:46.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported OTSOXX to FazeDinosaurio]
-[15Feb2025 21:58:56.518] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[15Feb2025 21:58:56.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported FazeDinosaurio to OTSOXX]
-[15Feb2025 21:59:11.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
-[15Feb2025 21:59:27.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has reached the goal [The Cave That Time Forgot]
-[15Feb2025 21:59:31.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 21:59:33.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported FazeDinosaurio to OTSOXX]
-[15Feb2025 21:59:34.355] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2140ms or 42 ticks behind
-[15Feb2025 21:59:34.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has reached the goal [The Cave That Time Forgot]
-[15Feb2025 22:00:08.057] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
-[15Feb2025 22:00:10.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Life Finds A Way]
-[15Feb2025 22:00:14.408] [pool-5-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos BlockPos{x=-3589, y=70, z=-1157}
-[15Feb2025 22:00:18.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 9.693079395465702,2.4955041354277476,-0.615051260163682
-[15Feb2025 22:00:21.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has made the advancement [Life Finds A Way]
-[15Feb2025 22:00:23.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Re-Extinct]
-[15Feb2025 22:00:27.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Tastes Like Chicken]
-[15Feb2025 22:00:30.039] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7024ms or 140 ticks behind
-[15Feb2025 22:00:47.540] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2525ms or 50 ticks behind
-[15Feb2025 22:01:30.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[15Feb2025 22:01:49.438] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4173ms or 83 ticks behind
-[15Feb2025 22:02:07.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Fronds Like These]
-[15Feb2025 22:02:07.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has made the advancement [Town of Bedrock]
-[15Feb2025 22:02:31.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Tree Stars!!!]
-[15Feb2025 22:02:57.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio was kicked for floating too long!
-[15Feb2025 22:02:57.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Flying is not enabled on this server
-[15Feb2025 22:02:57.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
-[15Feb2025 22:03:08.227] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:50695] logged in with entity id 14077 at (-3733.9431269438683, -20.956720354869383, -1148.6967726025246)
-[15Feb2025 22:03:08.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
-[15Feb2025 22:04:09.228] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[15Feb2025 22:04:46.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX was killed
-[15Feb2025 22:04:46.167] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/12345, l='ServerLevel[no]', x=-3790.46, y=70.00, z=-1212.93] died, message: 'Toolsmith was killed'
-[15Feb2025 22:04:46.168] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12346, l='ServerLevel[no]', x=-3809.42, y=68.00, z=-1231.52] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.172] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12505, l='ServerLevel[no]', x=-3812.00, y=67.00, z=-1239.74] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.173] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12506, l='ServerLevel[no]', x=-3810.50, y=69.00, z=-1230.49] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.190] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/12665, l='ServerLevel[no]', x=-3795.91, y=67.94, z=-1271.10] died, message: 'Fisherman was killed'
-[15Feb2025 22:04:46.198] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12669, l='ServerLevel[no]', x=-3861.13, y=93.00, z=-1267.48] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.200] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12670, l='ServerLevel[no]', x=-3831.43, y=78.00, z=-1252.03] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.230] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12871, l='ServerLevel[no]', x=-3825.59, y=75.00, z=-1270.36] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.230] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12872, l='ServerLevel[no]', x=-3815.05, y=73.00, z=-1249.44] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.231] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/12874, l='ServerLevel[no]', x=-3812.00, y=75.00, z=-1282.43] died, message: 'Fisherman was killed'
-[15Feb2025 22:04:46.233] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12877, l='ServerLevel[no]', x=-3796.70, y=67.94, z=-1271.73] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.237] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12895, l='ServerLevel[no]', x=-3833.44, y=77.00, z=-1297.97] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.245] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/13038, l='ServerLevel[no]', x=-3798.06, y=69.00, z=-1274.83] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.247] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/13044, l='ServerLevel[no]', x=-3826.74, y=75.00, z=-1271.13] died, message: 'Nitwit was killed'
-[15Feb2025 22:04:46.250] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/13163, l='ServerLevel[no]', x=-3833.56, y=76.94, z=-1298.73] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio was killed
-[15Feb2025 22:04:46.325] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/14483, l='ServerLevel[no]', x=-3798.28, y=68.00, z=-1329.37] died, message: 'Villager was killed'
-[15Feb2025 22:04:46.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 636 entities]
-[15Feb2025 22:05:01.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to -3687.500000, -32.500000, -1145.500000]
-[15Feb2025 22:05:03.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
-[15Feb2025 22:05:15.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 22:06:25.315] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
-[15Feb2025 22:06:39.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 468 entities]
-[15Feb2025 22:06:42.666] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2350ms or 47 ticks behind
-[15Feb2025 22:07:02.855] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
-[15Feb2025 22:08:22.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 73 entities]
-[15Feb2025 22:09:08.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has reached the goal [Suspicious Looking Item]
-[15Feb2025 22:09:50.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported OTSOXX to FazeDinosaurio]
-[15Feb2025 22:10:22.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [The Beginning of the End]
-[15Feb2025 22:10:22.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has made the advancement [The Beginning of the End]
-[15Feb2025 22:11:53.294] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-4, z=-1265} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.333] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-4, z=-1265} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.386] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-4, z=-1267} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.433] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-4, z=-1265} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.462] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.539] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.561] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.611] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3757, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.664] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3758, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.733] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3758, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.786] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3759, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.835] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3758, y=-5, z=-1266} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:11:53.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3759, y=-5, z=-1267} BlockPos{x=-3758, y=-4, z=-1268}
-[15Feb2025 22:12:34.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
-[15Feb2025 22:12:42.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 22:13:00.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has completed the challenge [The End... of the Beginning]
-[15Feb2025 22:13:11.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Spectator Mode]
-[15Feb2025 22:13:18.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 146 entities]
-[15Feb2025 22:13:36.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:13:43.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Spectator Mode]
-[15Feb2025 22:13:50.187] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 7.3022336495068885,0.0,-7.135983677624836
-[15Feb2025 22:14:05.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:14:22.725] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[15Feb2025 22:14:39.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
-[15Feb2025 22:14:45.980] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8265ms or 165 ticks behind
-[15Feb2025 22:14:58.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 1.1104482052678577,3.353011709646797,-9.50725735658716
-[15Feb2025 22:15:35.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 22:15:59.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported OTSOXX to FazeDinosaurio]
-[15Feb2025 22:16:10.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
-[15Feb2025 22:16:30.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Spectator Mode]
-[15Feb2025 22:16:36.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to -3746.500000, -26.763075, -1262.500000]
-[15Feb2025 22:16:49.254] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 3.2800723338282296,0.0,-9.4892287997925
-[15Feb2025 22:17:01.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 22:17:06.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported FazeDinosaurio to OTSOXX]
-[15Feb2025 22:17:10.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:17:34.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
-[15Feb2025 22:17:41.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 22:17:42.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio blew up
-[15Feb2025 22:17:52.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to -3812.500000, -2.500000, -1123.500000]
-[15Feb2025 22:17:54.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:17:59.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 1.7314543406632765,4.306831441351342,9.126505587718157
-[15Feb2025 22:19:24.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:20:23.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:22:19.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Town of Bedrock]
-[15Feb2025 22:23:29.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:24:01.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Adventure Mode]
-[15Feb2025 22:24:08.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:24:13.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:27:02.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
-[15Feb2025 22:27:09.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 22:27:16.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:27:51.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Teleported OTSOXX to -3949.500000, 64.500000, 184.500000]
-[15Feb2025 22:29:47.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 22 entities]
-[15Feb2025 22:29:48.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:32:13.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:32:43.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:32:59.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Lorem Ipsum]
-[15Feb2025 22:33:45.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Creative Mode]
-[15Feb2025 22:34:10.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 22:34:13.260] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Found alexscaves:magnetic_caves at -2452 -56 3154 in 2s
-[15Feb2025 22:34:13.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OTSOXX moved too quickly! -2.805241230804768,0.41999998688697815,-9.940135953988943
-[15Feb2025 22:34:19.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has reached the goal [Spear of Ages]
-[15Feb2025 22:34:42.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:35:13.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:35:23.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:35:23.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 10.082526106972182,0.2675514806611403,1.4919011318637274
-[15Feb2025 22:36:24.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has reached the goal [Dark Creator]
-[15Feb2025 22:36:31.309] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/26784, l='ServerLevel[no]', x=-3958.50, y=64.00, z=241.30] died, message: 'Librarian was slain by Zombie'
-[15Feb2025 22:36:35.937] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio was kicked for floating too long!
-[15Feb2025 22:36:35.988] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio lost connection: Flying is not enabled on this server
-[15Feb2025 22:36:35.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio left the game
-[15Feb2025 22:36:47.905] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:50938] logged in with entity id 31769 at (-3934.788513084694, 66.51679409440437, 200.17536633321404)
-[15Feb2025 22:36:47.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
-[15Feb2025 22:37:11.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:37:13.731] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[15Feb2025 22:37:24.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:37:45.225] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
-[15Feb2025 22:37:51.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:38:05.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5736ms or 114 ticks behind
-[15Feb2025 22:38:24.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:38:34.334] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13419ms or 268 ticks behind
-[15Feb2025 22:39:07.031] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[15Feb2025 22:39:25.554] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2139ms or 42 ticks behind
-[15Feb2025 22:39:44.382] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[15Feb2025 22:40:01.740] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2375ms or 47 ticks behind
-[15Feb2025 22:40:16.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:40:29.487] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[15Feb2025 22:40:47.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:40:49.436] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[15Feb2025 22:41:49.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 48 entities]
-[15Feb2025 22:42:59.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has reached the goal [Senior Summoner]
-[15Feb2025 22:43:07.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Killed 15 entities]
-[15Feb2025 22:43:29.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Spectator Mode]
-[15Feb2025 22:43:38.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Set own game mode to Survival Mode]
-[15Feb2025 22:43:48.788] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
-[15Feb2025 22:44:06.898] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3133ms or 62 ticks behind
-[15Feb2025 22:44:24.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
-[15Feb2025 22:44:43.291] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3626ms or 72 ticks behind
-[15Feb2025 22:45:00.827] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2562ms or 51 ticks behind
-[15Feb2025 22:45:18.271] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2456ms or 49 ticks behind
-[15Feb2025 22:45:20.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Gave 10000000 experience points to FazeDinosaurio]
-[15Feb2025 22:45:38.221] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[15Feb2025 22:45:39.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OTSOXX: Gave 10000000 experience points to OTSOXX]
-[15Feb2025 22:46:44.584] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[15Feb2025 22:46:54.245] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/31842, l='ServerLevel[no]', x=-3936.23, y=64.00, z=173.70] died, message: 'Villager hit the ground too hard whilst trying to escape FazeDinosaurio'
-[15Feb2025 22:47:03.876] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[15Feb2025 22:47:05.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: OTSOXX has made the advancement [Mine? Mine? Mine?]
-[15Feb2025 22:47:22.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! -3.5419569222444807,0.9271039364302851,-9.601762253604164
-[15Feb2025 22:47:26.445] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[15Feb2025 22:47:39.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
-[15Feb2025 22:48:08.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
-[15Feb2025 22:48:47.035] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
+[16Feb2025 00:51:02.069] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[16Feb2025 00:51:02.160] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[16Feb2025 00:51:02.265] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[16Feb2025 00:51:02.596] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[16Feb2025 00:51:02.916] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2574 advancements
+[16Feb2025 00:51:02.938] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[16Feb2025 00:51:02.950] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[16Feb2025 00:51:02.971] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[16Feb2025 00:51:03.102] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[16Feb2025 00:51:03.184] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[16Feb2025 00:51:06.284] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[16Feb2025 00:51:06.525] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[16Feb2025 00:51:06.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[16Feb2025 00:51:06.939] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[16Feb2025 00:51:06.940] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[16Feb2025 00:51:06.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[16Feb2025 00:51:07.225] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[16Feb2025 00:51:07.375] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[16Feb2025 00:51:07.614] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16Feb2025 00:51:07.615] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[16Feb2025 00:51:07.619] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16Feb2025 00:51:07.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[16Feb2025 00:51:08.758] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[16Feb2025 00:51:08.759] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[16Feb2025 00:51:08.767] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[16Feb2025 00:51:08.767] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[16Feb2025 00:51:08.768] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[16Feb2025 00:51:08.771] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[16Feb2025 00:51:08.774] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[16Feb2025 00:51:08.775] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[16Feb2025 00:51:08.777] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[16Feb2025 00:51:08.778] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[16Feb2025 00:51:10.097] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[16Feb2025 00:51:10.102] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[16Feb2025 00:51:10.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[16Feb2025 00:51:34.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Feb2025 00:51:46.956] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.958] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.959] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.960] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.961] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.968] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.973] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.974] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.974] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.975] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.977] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.979] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.980] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.982] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.988] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.996] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:46.999] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.003] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.009] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.015] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.018] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.021] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.025] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.029] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.032] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.036] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.276] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.775] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:47.829] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[16Feb2025 00:51:47.830] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[16Feb2025 00:51:48.275] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:48.776] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Feb2025 00:51:49.283] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[16Feb2025 00:51:49.729] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15455 ms
+[16Feb2025 00:51:49.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (42.076s)! For help, type "help"
+[16Feb2025 00:51:49.801] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[16Feb2025 00:51:51.727] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[16Feb2025 00:51:57.265] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[16Feb2025 00:52:02.996] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[16Feb2025 00:52:22.281] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FazeDinosaurio[/100.105.3.54:52213] logged in with entity id 36 at (-3969.7329256396556, 64.0, 184.69243381495355)
+[16Feb2025 00:52:22.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio joined the game
+[16Feb2025 00:52:39.121] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16949ms or 338 ticks behind
+[16Feb2025 00:53:04.049] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9977ms or 199 ticks behind
+[16Feb2025 00:53:09.582] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/137, l='ServerLevel[no]', x=-3933.19, y=68.00, z=181.53] died, message: 'Villager suffocated in a wall'
+[16Feb2025 00:53:20.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[16Feb2025 00:55:03.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[16Feb2025 00:56:06.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FazeDinosaurio has made the advancement [Life turned out to be a comedy]
+[16Feb2025 00:58:04.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[16Feb2025 00:58:23.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[16Feb2025 00:58:29.038] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Found alexscaves:candy_cavity at 6824 -56 -9538 in 4s
+[16Feb2025 00:58:38.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[16Feb2025 01:01:27.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[16Feb2025 01:02:35.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[16Feb2025 01:05:03.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[16Feb2025 01:05:22.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Spectator Mode]
+[16Feb2025 01:05:56.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[16Feb2025 01:06:11.561] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 8.105045057826828,0.0,-7.271041481271368
+[16Feb2025 01:06:40.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to 0.500000, 93.006013, -3305.500000]
+[16Feb2025 01:06:40.052] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5980ms or 119 ticks behind
+[16Feb2025 01:07:01.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to 1490.500000, 93.006013, -4799.500000]
+[16Feb2025 01:07:01.412] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6290ms or 125 ticks behind
+[16Feb2025 01:07:20.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Teleported FazeDinosaurio to 6488.500000, 93.006013, -10039.500000]
+[16Feb2025 01:07:20.039] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3117ms or 62 ticks behind
+[16Feb2025 01:07:31.443] [pool-5-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos BlockPos{x=6475, y=68, z=-9989}
+[16Feb2025 01:07:34.200] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 2.1284871702264354,0.0,10.11986237585188
+[16Feb2025 01:07:34.237] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=6475, y=68, z=-9989} but found not block entity block Block{minecraft:air} at location
+[16Feb2025 01:07:34.237] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=6475, y=68, z=-9989}
+[16Feb2025 01:07:38.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Survival Mode]
+[16Feb2025 01:08:19.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FazeDinosaurio moved too quickly! 7.2996125351955925,0.149200019741059,7.098931767131944
+[16Feb2025 01:08:51.221] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 2 bison_fur because there is no smelting recipe
+[16Feb2025 01:09:13.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Creative Mode]
+[16Feb2025 01:09:15.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [FazeDinosaurio: Set own game mode to Spectator Mode]
+[16Feb2025 01:09:16.815] [pool-5-thread-2/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos BlockPos{x=6475, y=74, z=-9659}
+[16Feb2025 01:09:23.844] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=6475, y=74, z=-9659} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
+[16Feb2025 01:09:23.847] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location BlockPos{x=6475, y=74, z=-9659}
+[16Feb2025 01:09:32.726] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: regenerating cave biome map, incorrect biome minecraft:river found at 6824 -56 -9538, should be alexscaves:candy_cavity
+[16Feb2025 01:09:35.268] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Found alexscaves:candy_cavity at 11285 0 -11785 in 2s

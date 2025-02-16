@@ -74,6 +74,7 @@
       "cold_desert": "2025-02-10 16:14:00 +0000",
       "crystalline_chasm": "2025-02-10 23:27:12 +0000",
       "orchard": "2025-02-15 22:39:30 +0000",
+      "mediterranean_forest": "2025-02-15 22:51:19 +0000",
       "coniferous_forest": "2025-01-30 01:21:50 +0000",
       "spider_nest": "2025-02-10 18:28:25 +0000",
       "dryland": "2025-02-10 17:32:10 +0000",
@@ -4419,15 +4420,57 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/fiddlehead": {
-    "criteria": {
-      "fiddlehead": "2025-02-15 22:02:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2025-02-15 21:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-02-15 21:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-02-15 21:48:21 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/backpack": {
+    "criteria": {
+      "has_leather": "2025-02-15 21:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-02-15 21:48:21 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
+    "criteria": {
+      "has_leather": "2025-02-15 21:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-02-15 21:48:21 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2025-02-15 21:52:45 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_primordial_caves": {
+    "criteria": {
+      "discover": "2025-02-15 21:59:27 +0000"
     },
     "done": true
   },
@@ -4437,9 +4480,39 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/defeat_luxtructosaurus": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
-      "killed": "2025-02-15 22:13:00 +0000"
+      "has_moss_block": "2025-02-15 22:00:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-02-15 22:00:13 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mossy_black_sand": {
+    "criteria": {
+      "has_moss_block": "2025-02-15 22:00:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-02-15 22:00:13 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_big_dinosaur": {
+    "criteria": {
+      "killed_tremorsaurus": "2025-02-15 22:00:23 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cooked_dinosaur_chop": {
+    "criteria": {
+      "cooked_dinosaur_chop": "2025-02-15 22:00:27 +0000"
     },
     "done": true
   },
@@ -4455,12 +4528,6 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/tree_star": {
-    "criteria": {
-      "tree_star": "2025-02-15 22:02:31 +0000"
-    },
-    "done": true
-  },
   "armorplus:recipes/armorplus.armors/crafting/shaped/chicken/chicken_helmet": {
     "criteria": {
       "has_req": "2025-02-15 22:00:51 +0000"
@@ -4473,15 +4540,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_chestplate": {
+  "armorplus:recipes/armorplus.armors/crafting/shaped/chicken/chicken_helmet_alt": {
     "criteria": {
-      "has_leather": "2025-02-15 21:48:21 +0000"
+      "has_req": "2025-02-15 22:00:51 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/feather_block": {
+    "criteria": {
+      "has_feather": "2025-02-15 22:00:51 +0000"
+    },
+    "done": true
+  },
+  "armorplus:recipes/armorplus.armors/crafting/shaped/chicken/chicken_boots_alt": {
+    "criteria": {
+      "has_req": "2025-02-15 22:00:51 +0000"
+    },
+    "done": true
+  },
+  "armorplus:recipes/armorplus.armors/crafting/shaped/chicken/chicken_leggings": {
+    "criteria": {
+      "has_req": "2025-02-15 22:00:51 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/fiddlehead": {
+    "criteria": {
+      "fiddlehead": "2025-02-15 22:02:07 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/tree_star": {
+    "criteria": {
+      "tree_star": "2025-02-15 22:02:31 +0000"
     },
     "done": true
   },
   "alexscaves:alexscaves/summon_luxtructosaurus": {
     "criteria": {
       "summon_luxtructosaurus": "2025-02-15 22:10:22 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_luxtructosaurus": {
+    "criteria": {
+      "killed": "2025-02-15 22:13:00 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/limestone": {
+    "criteria": {
+      "limestone": "2025-02-15 22:22:19 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_codex": {
+    "criteria": {
+      "cave_codex": "2025-02-15 22:32:59 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2025-02-15 22:36:24 +0000"
     },
     "done": true
   },
@@ -4494,126 +4615,6 @@
   "alexsmobs:alexsmobs/seagull_steal": {
     "criteria": {
       "ex": "2025-02-15 22:47:05 +0000"
-    },
-    "done": true
-  },
-  "armorplus:recipes/armorplus.armors/crafting/shaped/chicken/chicken_helmet_alt": {
-    "criteria": {
-      "has_req": "2025-02-15 22:00:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2025-02-15 21:48:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2025-02-15 22:00:13 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/feather_block": {
-    "criteria": {
-      "has_feather": "2025-02-15 22:00:51 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/backpack": {
-    "criteria": {
-      "has_leather": "2025-02-15 21:48:21 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/discover_primordial_caves": {
-    "criteria": {
-      "discover": "2025-02-15 21:59:27 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/cooked_dinosaur_chop": {
-    "criteria": {
-      "cooked_dinosaur_chop": "2025-02-15 22:00:27 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/grizzly_bear": {
-    "criteria": {
-      "killed_by": "2025-02-15 21:52:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2025-02-15 21:48:21 +0000"
-    },
-    "done": true
-  },
-  "armorplus:recipes/armorplus.armors/crafting/shaped/chicken/chicken_boots_alt": {
-    "criteria": {
-      "has_req": "2025-02-15 22:00:51 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/cave_codex": {
-    "criteria": {
-      "cave_codex": "2025-02-15 22:32:59 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/limestone": {
-    "criteria": {
-      "limestone": "2025-02-15 22:22:19 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
-    "criteria": {
-      "has_leather": "2025-02-15 21:48:21 +0000"
-    },
-    "done": true
-  },
-  "armorplus:recipes/armorplus.armors/crafting/shaped/chicken/chicken_leggings": {
-    "criteria": {
-      "has_req": "2025-02-15 22:00:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/moss_carpet": {
-    "criteria": {
-      "has_moss_block": "2025-02-15 22:00:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2025-02-15 21:48:21 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/mossy_black_sand": {
-    "criteria": {
-      "has_moss_block": "2025-02-15 22:00:13 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:dark_creator": {
-    "criteria": {
-      "dark_creator_0": "2025-02-15 22:36:24 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/defeat_big_dinosaur": {
-    "criteria": {
-      "killed_tremorsaurus": "2025-02-15 22:00:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2025-02-15 22:00:13 +0000"
     },
     "done": true
   },
